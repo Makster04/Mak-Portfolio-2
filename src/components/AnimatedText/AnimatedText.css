@@ -11,7 +11,7 @@
 }
 
 .animation-gradient {
-  background: linear-gradient(to right, #ffffff, #ff8c00);
+  background: linear-gradient(to right, #f4f41b, #1500ff);
   background-size: 200% auto;
   animation: gradient 3s linear infinite;
   -webkit-background-clip: text;
