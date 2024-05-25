@@ -18,7 +18,7 @@ const CardTab = () => {
         {
             label: "Programming Languages",
             value: "programming",
-            items: ['TypeScript', 'JavaScript', 'Java', 'Python'],
+            items: ['TypeScript', 'JavaScript'],
         },
         {
             label: "Frameworks/Libraries",
@@ -65,7 +65,7 @@ const CardTab = () => {
     ];
 
     const TAGS = [
-        'React.js', 'TypeScript', 'JavaScript', 'TailWindCSS', 'MERN Stack', 'MongoDB', 'Node JS', 'Express', 'Python', 'Machine Learning', 'Java'
+        'React.js', 'TypeScript', 'JavaScript', 'CSS', 'MERN Stack', 'MongoDB', 'Express', 'React', 'Node.js', 'Git', 'HTML'
     ];
 
     const DURATION = 55000;

@@ -22,8 +22,8 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleButtonClick = () => {
-    const phoneNumber = '+917067173410';
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=Hello Shivam! I wanted to know about ...`;
+    const phoneNumber = '+4252413487';
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=Hello What up Make! I wanted to know about ...`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -50,8 +50,8 @@ const Contact = () => {
         {
           from_name: form.name,
           from_email: form.email,
-          to_name: "Shivam Raj",
-          to_email: "shivamraj.me21@rvce.edu.in",
+          to_name: "Mak Trnka",
+          to_email: "maketrnka@comcast.net",
           message: form.message,
         },
         // EMAIL JS Public KEy
@@ -96,7 +96,7 @@ const Contact = () => {
         <div className="text-4xl" >
           <AnimatedText text={'Contact Me'} />
         </div>
-        <p className={styles.sectionSubText}>My Email id: shivxmr@gmail.com</p>
+        <p className={styles.sectionSubText}>My Email id: maktrnka@comcast.net</p>
 
         <form
           ref={formRef}
